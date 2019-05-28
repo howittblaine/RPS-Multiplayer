@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+.container {
+    margin-bottom: 25px;
+}
+.card {
+    background-color: #EDEEF0;
+}
+.card img{
+    width: 150px;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+.card-body{
+    background-color: rgb(141, 174, 202);
+}
+.card-body a.btn{
+    background-color: rgb(209, 92, 94);
+}
+#resultsPanel{
+    margin: 0 1em;
+    border-radius: 35px;
+}
+#resultsPanel>.card-body{
+    border-radius: 35px;
+}
+.badge-secondary{
+    display: block !important;
+    border: 4px solid rgb(209, 92, 94);
+    background-color: rgb(209, 92, 94);
+    margin: 0 auto;
+    width: 120px;
+}
+.yourturn{
+    border: 4px solid rgb(141, 174, 202);
+    color: rgb(141, 174, 202);
+}
+#chat{
+    margin-top: 1em;
+}
+#chat>p{
+    background-color: rgb(209, 92, 94);
+    padding: 0.1em;
+    border-radius: 3px;
+}
